@@ -48,7 +48,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="https://placehold.co/100x100/A0AEC0/FFFFFF?text=Linda+P." 
+                  src="/linda.png" 
                   alt="Happy customer Linda P."
                 />
                 <div>
@@ -61,7 +61,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="https://placehold.co/100x100/718096/FFFFFF?text=David+L." 
+                  src="/david.jpg" 
                   alt="Happy customer David L."
                 />
                 <div>
@@ -103,7 +103,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="https://placehold.co/100x100/A0AEC0/FFFFFF?text=Linda+P." 
+                  src="/linda.png" 
                   alt="Happy customer Linda P."
                 />
                 <div>
@@ -116,7 +116,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="https://placehold.co/100x100/718096/FFFFFF?text=David+L." 
+                  src="/david.jpg" 
                   alt="Happy customer David L."
                 />
                 <div>

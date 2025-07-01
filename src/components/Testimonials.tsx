@@ -11,19 +11,25 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
       name: "David L.",
       location: "Mississauga, ON",
       quote: "As a business owner, I was furious when I realized I'd been tricked into a $9,000 contract for a simple HEPA air filter. The frustration was immense. ClearPath's model is brilliant—they saved me over $4,500, handled the entire legal process, and made fighting back on principle not only possible, but simple.",
-      totalSaved: "Over $4,500"
+      totalSaved: "Over $4,500",
+      image: "/david.jpg",
+      positionClass: 'object-top'
     },
     {
       name: "Sarah J.",
       location: "Richmond Hill, ON",
       quote: "I felt so foolish for signing. When I discovered the total buyout for our new tankless water heater was over $22,000, I felt sick. ClearPath was a lifeline. They cut my total debt by over $11,000, and my new monthly payment is even a little lower and finally includes maintenance. A massive weight has been lifted.",
-      totalSaved: "Over $11,000"
+      totalSaved: "Over $11,000",
+      image: "/ChatGPT Image Jun 29, 2025 at 04_45_34 PM.png",
+      positionClass: 'object-center'
     },
     {
       name: "Mark T.",
       location: "Hamilton, ON",
       quote: "My elderly father was pressured into a shocking $45,000 contract for a furnace and tankless water heater he didn't need. He felt completely trapped. ClearPath saved him over $22,500, got the lien cancelled, and gave him his peace of mind back. I can't recommend them enough.",
-      totalSaved: "Over $22,500"
+      totalSaved: "Over $22,500",
+      image: "/Gemini_Generated_Image_thd152thd152thd1.jpg",
+      positionClass: 'object-center'
     }
   ];
   
@@ -69,9 +75,16 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
                 </p>
               </div>
               
-              <footer className="border-t border-slate-200 pt-6">
-                <div className="font-bold text-slate-800 text-lg">{testimonial.name}</div>
-                <div className="text-slate-600 font-medium">{testimonial.location}</div>
+              <footer className="border-t border-slate-200 pt-6 flex items-center">
+                <img 
+                  src={testimonial.image} 
+                  alt={testimonial.name}
+                  className={`w-12 h-12 rounded-full object-cover mr-4 ${testimonial.positionClass}`}
+                />
+                <div>
+                  <div className="font-bold text-slate-800 text-lg">{testimonial.name}</div>
+                  <div className="text-slate-600 font-medium">{testimonial.location}</div>
+                </div>
               </footer>
             </div>
           ))}

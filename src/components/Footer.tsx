@@ -19,15 +19,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-teal-400 mr-4" />
-                <span className="font-medium">(416) 555-CLEAR</span>
+                <span className="font-medium">(289) 635-4889</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-teal-400 mr-4" />
-                <span className="font-medium">help@clearpathcancel.ca</span>
+                <span className="font-medium">info@clearpathcancellation.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-teal-400 mr-4" />
-                <span className="font-medium">Toronto, ON</span>
+                <span className="font-medium">333 Bay Street, Suite 1400, Toronto, ON M5H 2R2</span>
               </div>
             </div>
           </div>
