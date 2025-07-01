@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Social Proof Ticker Animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Scrolling wrapper animation */
+.scrolling-wrapper {
+  animation: scroll 30s linear infinite;
+}
