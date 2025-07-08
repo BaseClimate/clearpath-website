@@ -7,9 +7,9 @@ const ProblemSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-8 leading-tight tracking-tight">
-            If You Were Pressured at Your Door, You're One of 
-            <span className="text-red-600"> Over 1 Million Canadian Homeowners</span> 
-            <br />Trapped in a Predatory Contract
+            If You Were Pressured at Your Door, You're One of
+            <div className="text-red-600">Over 1 Million Canadian Homeowners</div>
+            Trapped in a Predatory Contract
           </h2>
         </div>
         
