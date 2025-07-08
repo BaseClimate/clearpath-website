@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <p className="text-slate-300 leading-relaxed mb-8 max-w-md font-medium">
               Expert advocates specializing in HVAC contract cancellation. We partner with licensed legal 
-              professionals to help Ontario homeowners break free from predatory contracts.
+              professionals to help Canadian homeowners break free from predatory contracts.
             </p>
             
             <div className="space-y-4">
@@ -66,10 +66,10 @@ const Footer = () => {
           
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm font-medium">
-              © 2024 ClearPath Contract Cancellation. All rights reserved.
+              2024 ClearPath Contract Cancellation. All rights reserved.
             </p>
             <p className="text-slate-400 text-sm mt-2 sm:mt-0 font-medium">
-              Serving homeowners across Ontario
+              Serving homeowners across Canada
             </p>
           </div>
         </div>

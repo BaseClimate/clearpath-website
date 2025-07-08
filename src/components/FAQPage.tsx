@@ -16,12 +16,12 @@ const FAQPage: React.FC<Props> = ({ onOpenModal }) => {
     },
     {
       question: "Is this legal? What happens if the HVAC company tries to sue me?",
-      answer: "Yes, this is a 100% legal and established process. Contract cancellation is a remedy based on powerful legislation like the Consumer Protection Act and the Homeowner Protection Act, 2024. These laws were created to protect consumers from exactly these types of predatory practices. While any company can threaten legal action, our process is designed to robustly defend your rights. The legal partner assigned to your case will manage all communication and required responses.",
+      answer: "Yes, this is a 100% legal and established process. Contract cancellation is a remedy based on powerful legislation like the Consumer Protection Act and other provincial laws, which were created to protect consumers from exactly these types of predatory practices. While any company can threaten legal action, our process is designed to robustly defend your rights. The legal partner assigned to your case will manage all communication and required responses.",
       icon: Shield
     },
     {
-      question: "What happens to my furnace/water heater after the contract is cancelled? Do I have to give it back?",
-      answer: "No, you do not. This is one of the most powerful protections consumers have. Under Ontario's Consumer Protection Act, when an agreement is cancelled because of an unfair practice (like the high-pressure sales tactics these companies use), the consumer is legally entitled to retain the goods with no further obligation. You are guaranteed to keep your equipment. We ensure this right is fully enforced.",
+      question: "Do I have to return the equipment if my contract is cancelled?",
+      answer: "No, you do not. This is one of the most powerful protections consumers have. Under Canadian consumer protection laws, when an agreement is cancelled because of an unfair practice (like the high-pressure sales tactics these companies use), the consumer is legally entitled to retain the goods with no further obligation. You are guaranteed to keep your equipment. We ensure this right is fully enforced.",
       icon: Home
     },
     {
@@ -55,8 +55,8 @@ const FAQPage: React.FC<Props> = ({ onOpenModal }) => {
       icon: DollarSign
     },
     {
-      question: "Who are the legal partners you work with? Can I choose my own?",
-      answer: "We have a network of independent, licensed Ontario lawyers who specialize specifically in consumer protection law and have a proven track record with these types of cases. We connect you with a partner from this vetted network.\n\nWhile you are always free to hire any lawyer you wish, the efficiency and affordability of our model comes from the deep integration between our digitized process and our legal partners who are already experts on our system. Using an outside lawyer would unfortunately mean you incur the high costs and learning curve that our system was designed to eliminate.",
+      question: "Can I use my own lawyer instead of yours?",
+      answer: "We have a network of independent, licensed Canadian lawyers who specialize specifically in consumer protection law and have a proven track record with these types of cases. We connect you with a partner from this vetted network.\n\nWhile you are always free to hire any lawyer you wish, the efficiency and affordability of our model comes from the deep integration between our digitized process and our legal partners who are already experts on our system. Using an outside lawyer would unfortunately mean you incur the high costs and learning curve that our system was designed to eliminate.",
       icon: Users
     },
     {
@@ -70,8 +70,8 @@ const FAQPage: React.FC<Props> = ({ onOpenModal }) => {
       icon: FileText
     },
     {
-      question: "Why was ClearPath started? What's your story?",
-      answer: "ClearPath was founded by Tim Wells after his own grandmother was trapped in predatory contracts totaling just over $90,000. As a tech founder, Tim couldn't accept that the legal system was too expensive for average families to fight back against these scams. He built a digitized, streamlined process that makes justice affordable for everyone. We successfully cancelled his grandmother's contracts completely, and that victory became the blueprint for helping hundreds of other Ontario families.",
+      question: "How did ClearPath start?",
+      answer: "ClearPath was founded by a team of consumer advocates, technology experts, and legal strategists who saw the injustice of predatory contracts and refused to accept the status quo. We built a digitized, streamlined process that makes justice affordable for everyone. Our system has successfully helped hundreds of Canadian families cancel their contracts and reclaim their financial freedom.",
       icon: HelpCircle
     }
   ];

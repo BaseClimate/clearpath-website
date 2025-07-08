@@ -54,23 +54,23 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
     },
     {
       id: 2,
-      title: "Your Rights Under the Homeowner Protection Act, 2024",
-      excerpt: "A new law has changed the game for Ontario homeowners. Learn how the Homeowner Protection Act, 2024 makes it illegal for companies to place liens on your home for things like furnaces and water heaters.",
+      title: "Your Rights Under Canadian Consumer Protection Laws",
+      excerpt: "New legislation has changed the game for Canadian homeowners. Learn how consumer protection laws make it illegal for companies to place liens on your home for things like furnaces and water heaters.",
       readTime: "6 min read",
       category: "Legal Rights",
       icon: Scale,
       content: [
-        "For years, the power dynamic in predatory contract disputes was tilted in favour of the HVAC companies, largely because of one powerful tool: the lien. That all changed in 2024 with the introduction of the Homeowner Protection Act.",
+        "For years, the power dynamic in predatory contract disputes was tilted in favour of the HVAC companies, largely because of one powerful tool: the lien. That all changed with the introduction of new consumer protection laws.",
         
-        "**What is a Lien (or NOSI)?**\n\nA lien, officially called a Notice of Security Interest (NOSI), is a legal claim placed on your property's title. It acts as security for a debt, preventing you from selling or refinancing your home without first paying the company that placed the lien. These companies used liens as the ultimate hammer to ensure you couldn't escape their contracts.",
+        "**What is a Lien (or NOSI)?**\n\nA lien, officially called a Notice of Security Interest (NOSI), is a legal claim placed on your property's title. It acts as security for a debt, preventing you from selling or refinancing your home without first paying the claimant first. These companies used liens as the ultimate hammer to ensure you couldn't escape their contracts.",
         
-        "**How the New Law Protects You**\n\nThe Homeowner Protection Act, 2024 is a game-changer. The Act explicitly bans the registration of NOSIs on the Land Registry for consumer goods. This includes items like furnaces, air conditioners, water heaters, and water filters.",
+        "**How the New Laws Protect You**\n\nThe new laws are a game-changer. They explicitly ban the registration of NOSIs on the Land Registry for consumer goods. This includes items like furnaces, air conditioners, water heaters, and water filters.",
         
-        "**Key Provisions of the Act:**\n\n• **Prohibition of New Liens**: Companies can no longer register NOSIs against your home for HVAC equipment\n• **Existing Lien Expiry**: Many existing NOSIs are deemed to have expired under the new legislation\n• **Enhanced Penalties**: Stronger consequences for companies that violate these rules\n• **Retroactive Application**: Some provisions apply to contracts signed before the Act came into effect",
+        "**Key Provisions of the Laws:**\n\n• **Prohibition of New Liens**: Companies can no longer register NOSIs against your home for HVAC equipment\n• **Existing Lien Expiry**: Many existing NOSIs are deemed to have expired under the new legislation\n• **Enhanced Penalties**: Stronger consequences for companies that violate these rules\n• **Retroactive Application**: Some provisions apply to contracts signed before the laws came into effect",
         
-        "**What This Means for You**\n\nIf you signed a contract after this law came into effect, any attempt to place a lien on your home for this equipment is illegal. More importantly, the Act also deems many existing NOSIs to have expired. This single piece of legislation can invalidate the primary tool these companies use to trap you. It gives you an incredibly powerful new angle to have both your contract and the lien against your home declared void.",
+        "**What This Means for You**\n\nIf you signed a contract after these laws came into effect, any attempt to place a lien on your home for this equipment is illegal. More importantly, the laws also deem many existing NOSIs to have expired. This single piece of legislation can invalidate the primary tool these companies use to trap you. It gives you an incredibly powerful new angle to have both your contract and the lien against your home declared void.",
         
-        "**The Broader Impact**\n\nThis legislation represents a fundamental shift in how Ontario protects homeowners from predatory practices. It acknowledges that the previous system allowed companies to essentially hold homes hostage over consumer goods, creating an unfair power imbalance.",
+        "**The Broader Impact**\n\nThis legislation represents a fundamental shift in how Canada protects homeowners from predatory practices. It acknowledges that the previous system allowed companies to essentially hold homes hostage over consumer goods, creating an unfair power imbalance.",
         
         "At ClearPath, our legal partners are experts in using this new legislation to defend homeowners. If you're worried about a lien on your home, find out how this new law can help you in a free case review."
       ]
@@ -95,9 +95,9 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
         
         "**Step 4: Gather Your Documentation**\n\nCollect all documents related to your contract and the sales process:\n• Original contract and any amendments\n• Sales materials or brochures provided\n• Records of the initial sales interaction\n• Payment history and statements\n• Any correspondence with the company\n• Photos or documentation of the equipment installed",
         
-        "**Step 5: Seek Expert Help**\n\nThis is not a DIY project. Challenging a lien and a predatory contract requires specialized knowledge of consumer law. This is where ClearPath comes in. Our entire process is built to challenge the validity of these agreements and, as a result, remove the liens they generate. With the new Homeowner Protection Act, 2024 now in effect, the case for removing these liens is stronger than ever.",
+        "**Step 5: Seek Expert Help**\n\nThis is not a DIY project. Challenging a lien and a predatory contract requires specialized knowledge of consumer law. This is where ClearPath comes in. Our entire process is built to challenge the validity of these agreements and, as a result, remove the liens they generate. With the new laws now in effect, the case for removing these liens is stronger than ever.",
         
-        "**The ClearPath Advantage**\n\nOur legal partners have successfully challenged hundreds of liens using a proven framework that addresses:\n• Contract validity under consumer protection laws\n• Proper lien registration procedures\n• New protections under the Homeowner Protection Act, 2024\n• Negotiation strategies with finance companies",
+        "**The ClearPath Advantage**\n\nOur legal partners have successfully challenged hundreds of liens using a proven framework that addresses:\n• Contract validity under consumer protection laws\n• Proper lien registration procedures\n• New protections under the laws\n• Negotiation strategies with finance companies",
         
         "**What NOT to Do**\n\n• Don't pay the full buyout amount without exploring your options\n• Don't ignore correspondence from the finance company\n• Don't attempt to negotiate directly without legal support\n• Don't assume the lien is valid just because it's registered",
         
@@ -139,7 +139,7 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
             </h2>
             <p className="text-xl text-slate-600 leading-relaxed font-medium max-w-4xl mx-auto">
               The more you know, the better you can protect yourself. Our resource center is dedicated to providing clear, 
-              easy-to-understand information about your rights as an Ontario homeowner. Browse our articles to learn more.
+              easy-to-understand information about your rights as a Canadian homeowner. Browse our articles to learn more.
             </p>
           </div>
         </div>
@@ -241,7 +241,7 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
               Additional Resources
             </h2>
             <p className="text-xl text-slate-600 leading-relaxed font-medium">
-              Explore more resources to understand your rights and options as an Ontario homeowner.
+              Explore more resources to understand your rights and options as a Canadian homeowner.
             </p>
           </div>
           
@@ -255,26 +255,26 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
               
               <div className="space-y-4">
                 <a 
-                  href="https://www.ontario.ca/page/consumer-protection-act"
+                  href="https://www.canada.ca/en/services/finance/consumer-affairs.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
                 >
                   <div>
-                    <h4 className="font-semibold text-slate-800">Ontario Consumer Protection Act</h4>
+                    <h4 className="font-semibold text-slate-800">Canadian Consumer Protection Laws</h4>
                     <p className="text-sm text-slate-600">Official government information</p>
                   </div>
                   <ExternalLink className="h-5 w-5 text-slate-400" />
                 </a>
                 
                 <a 
-                  href="https://www.ontario.ca/page/homeowner-protection-act"
+                  href="https://www.canada.ca/en/services/finance/consumer-affairs/consumer-protection.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
                 >
                   <div>
-                    <h4 className="font-semibold text-slate-800">Homeowner Protection Act, 2024</h4>
+                    <h4 className="font-semibold text-slate-800">Consumer Protection in Canada</h4>
                     <p className="text-sm text-slate-600">New legislation protecting homeowners</p>
                   </div>
                   <ExternalLink className="h-5 w-5 text-slate-400" />
@@ -291,26 +291,26 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
               
               <div className="space-y-4">
                 <a 
-                  href="https://www.canlii.org/en/on/"
+                  href="https://www.canlii.org/en/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
                 >
                   <div>
-                    <h4 className="font-semibold text-slate-800">CanLII Ontario Cases</h4>
+                    <h4 className="font-semibold text-slate-800">CanLII Legal Cases</h4>
                     <p className="text-sm text-slate-600">Legal precedents and case law</p>
                   </div>
                   <ExternalLink className="h-5 w-5 text-slate-400" />
                 </a>
                 
                 <a 
-                  href="https://www.legalaid.on.ca/"
+                  href="https://www.legalaid.ca/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
                 >
                   <div>
-                    <h4 className="font-semibold text-slate-800">Legal Aid Ontario</h4>
+                    <h4 className="font-semibold text-slate-800">Legal Aid Canada</h4>
                     <p className="text-sm text-slate-600">Free legal information and services</p>
                   </div>
                   <ExternalLink className="h-5 w-5 text-slate-400" />

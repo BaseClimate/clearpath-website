@@ -4,7 +4,7 @@ const SocialProofTicker: React.FC = () => {
   return (
     <div className="py-12 bg-white">
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-8 px-4">Trusted by Homeowners Across Ontario</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-8 px-4">Trusted by Homeowners Across Canada</h2>
         
         {/* Scroller container with a gradient mask for a fade-in/fade-out effect */}
         <div 

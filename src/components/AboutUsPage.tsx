@@ -22,68 +22,51 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
             About Us: A Mission for Justice
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed font-medium max-w-4xl mx-auto">
-            ClearPath wasn't born in a boardroom. It was born out of love, frustration, and an unwavering commitment to justice for one family—a commitment that now extends to every family in Ontario.
+            ClearPath wasn't born in a boardroom. It was born from a shared frustration with a broken system and an unwavering commitment to justice for Canadian homeowners.
           </p>
         </div>
       </section>
 
-      {/* Founder's Introduction */}
+      {/* A System Designed for Injustice */}
       <section className="py-24 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            {/* Tim's Professional Photo */}
-            <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-slate-300 shadow-lg">
-              <img 
-                src="/Gemini_Generated_Image_xjv1hcxjv1hcxjv1.jpg" 
-                alt="Tim Wells, Founder of ClearPath"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            
-            <blockquote className="text-2xl md:text-3xl font-bold text-slate-800 leading-tight tracking-tight mb-6 max-w-4xl mx-auto">
-              "When they trapped my grandmother in debt, they didn't count on her grandson being a tech founder who would build an entirely new system just to fight back."
-            </blockquote>
-            
-            <cite className="text-xl text-slate-600 font-semibold">
-              - Tim Wells, Founder of ClearPath
-            </cite>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Story Section */}
-      <section className="py-24 bg-slate-50">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-8 leading-tight tracking-tight">
-              Our Story: Why We Exist
+              A System Designed for Injustice
             </h2>
           </div>
           
           <div className="bg-white p-12 rounded-2xl shadow-lg border border-slate-200">
             <div className="prose prose-lg max-w-none">
-              <p className="text-xl text-slate-700 leading-relaxed font-medium mb-8">
-                ClearPath wasn't just an idea; it was a necessary invention born from a fight for my grandmother.
+              <p className="text-lg text-slate-700 leading-relaxed font-medium mb-6">
+                For years, a systemic problem has plagued homeowners across Canada. High-pressure sales teams have used deceptive tactics to lock families into predatory contracts for furnaces, water heaters, and other home systems. The result is always the same: crippling debt, illegal liens placed on homes, and the feeling of being trapped with nowhere to turn.
               </p>
               
-              <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
-                In 2022, my grandma, who has lived in the same house for 50 years, became a target. A parade of door-to-door salespeople, misrepresenting themselves as partners in government 'Green' programs, pressured her into signing contracts for a new furnace, a tankless water heater, a HEPA filter, and more.
+              <p className="text-lg text-slate-700 leading-relaxed font-medium">
+                The system was broken because the fight was designed to be too expensive. Predatory companies knew that the average family couldn't afford the tens of thousands of dollars in legal fees required to challenge them in court. This imbalance of power allowed them to operate with impunity. We knew there had to be a better way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Solution We Built */}
+      <section className="py-24 bg-slate-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-8 leading-tight tracking-tight">
+              Our Story: Building a Better Way
+            </h2>
+          </div>
+          
+          <div className="bg-white p-12 rounded-2xl shadow-lg border border-slate-200">
+            <div className="prose prose-lg max-w-none">
+              <p className="text-lg text-slate-700 leading-relaxed font-medium">
+                ClearPath was founded by a team of consumer advocates, technology experts, and legal strategists who saw this injustice and refused to accept it. We became obsessed with a single question: How can we make justice affordable for everyone? Our founding was built on a deep analysis of thousands of these predatory contracts, where we mapped out the companies' tactics and identified their legal weaknesses. We then built a new system from the ground up—a streamlined, digitized process that combines modern efficiency with specialized legal expertise.
               </p>
               
-              <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
-                They promised her savings. What they delivered was a mountain of debt totaling <strong className="text-red-600">just over $90,000</strong>, secured by liens against the home she had worked her whole life for.
-              </p>
-              
-              <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
-                When our family discovered the scale of the scam, we were furious. But our anger quickly turned to frustration when we learned why these companies are so successful: the system is broken. Hiring a lawyer for a multi-year court battle would cost tens of thousands of dollars, with no guarantee of winning. The fight was designed to be too expensive for the average family.
-              </p>
-              
-              <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
-                I couldn't accept that. With my background in technology and process optimization, I knew there had to be a better way. I became obsessed, diving into the legal precedents, digitizing the paperwork, and building a streamlined process from the ground up. I partnered with a small group of specialized consumer protection lawyers who believed in the mission.
-              </p>
-              
-              <p className="text-xl text-slate-700 leading-relaxed font-semibold">
-                Together, we built the system that became ClearPath—and we got my grandmother's contracts and liens cancelled completely. We proved that when you combine legal expertise with modern efficiency, you can make justice affordable for everyone.
+              <p className="text-lg text-slate-700 leading-relaxed font-medium mt-6">
+                Our model makes fighting back not only possible but simple and risk-free. That is the story of ClearPath: we didn't just join the fight; we changed how the fight is won.
               </p>
             </div>
           </div>
@@ -105,7 +88,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="bg-gradient-to-br from-teal-50 to-slate-50 p-10 rounded-2xl border border-teal-200">
               <p className="text-xl text-slate-700 leading-relaxed font-semibold mb-8">
-                ClearPath was founded with a single, clear mission: To bring affordable justice to every Ontario homeowner trapped in a predatory contract.
+                ClearPath was founded with a single, clear mission: To bring affordable justice to every Canadian homeowner trapped in a predatory contract.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
@@ -113,7 +96,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed font-medium">
-                We have now successfully helped hundreds of families across Ontario cancel their contracts, saving them millions of dollars in fraudulent debt. We turned a personal fight into a powerful, proven path to freedom for everyone.
+                We have now successfully helped hundreds of families across Canada cancel their contracts, saving them millions of dollars in fraudulent debt.
               </p>
             </div>
             
@@ -149,7 +132,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
                 <div>
                   <h3 className="text-xl font-bold text-slate-800 mb-2">Clear Mission</h3>
                   <p className="text-slate-600 leading-relaxed font-medium">
-                    Affordable justice for every Ontario homeowner trapped in predatory contracts
+                    Affordable justice for every Canadian homeowner trapped in predatory contracts
                   </p>
                 </div>
               </div>
@@ -187,7 +170,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
               </div>
               <h3 className="text-xl font-bold text-slate-800 mb-4 tracking-tight">Family-First</h3>
               <p className="text-slate-600 leading-relaxed font-medium">
-                We treat every client like family because we know what it's like to fight for someone you love.
+                We treat every client like family because we understand the immense stress this situation causes. You are not just a case number to us; you are a family we are committed to fighting for.
               </p>
             </div>
             
@@ -211,7 +194,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
             Ready to Join Our Fight for Justice?
           </h2>
           <p className="text-xl text-slate-100 mb-10 leading-relaxed font-medium max-w-3xl mx-auto">
-            Let us help you break free from your predatory contract, just like we helped Tim's grandmother and hundreds of other Ontario families.
+            Let us help you break free from your predatory contract, just like we've helped hundreds of Canadian families.
           </p>
           
           <button 

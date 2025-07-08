@@ -14,7 +14,7 @@ const AuthoritySection = () => {
           </h2>
           <p className="text-xl text-slate-600 max-w-5xl mx-auto font-medium leading-relaxed">
             Contract cancellation isn't a loophole; it's an established legal remedy based on powerful legislation 
-            like Ontario's Consumer Protection Act and the new Homeowner Protection Act, 2024. These companies 
+            like Canadian consumer protection laws and provincial regulations. These companies 
             routinely violate these laws.
           </p>
         </div>

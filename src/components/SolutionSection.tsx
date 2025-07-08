@@ -55,7 +55,7 @@ const SolutionSection = () => {
             </div>
             <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Keep Your Equipment, Guaranteed</h3>
             <p className="text-slate-600 leading-relaxed font-medium">
-              Under Ontario's Consumer Protection Act, when a contract is cancelled due to unfair practices, you have the right to keep the equipment. 
+              Under Canadian consumer protection laws, when a contract is cancelled due to unfair practices, you have the right to keep the equipment. 
               <strong className="text-slate-800"> You will not be left without a furnace or water heater. It's yours.</strong>
             </p>
           </div>

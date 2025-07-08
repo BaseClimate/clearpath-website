@@ -8,7 +8,7 @@ const ProblemSection = () => {
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-8 leading-tight tracking-tight">
             If You Were Pressured at Your Door, You're One of 
-            <span className="text-red-600"> 500,000+ Ontario Homeowners</span> 
+            <span className="text-red-600"> Over 1 Million Canadian Homeowners</span> 
             <br />Trapped in a Predatory Contract
           </h2>
         </div>
@@ -58,7 +58,7 @@ const ProblemSection = () => {
         <div className="text-center mt-16 p-10 bg-slate-50 rounded-2xl max-w-5xl mx-auto border border-slate-200">
           <p className="text-xl text-slate-700 leading-relaxed font-medium">
             <strong className="text-slate-800">You are not at fault.</strong> These contracts are designed to be confusing and deceptive. 
-            More importantly, the way they were sold often violates Ontario's Consumer Protection Act, 
+            More importantly, the way they were sold often violates Canadian consumer protection laws, 
             making them <span className="text-teal-600 font-bold">legally cancellable.</span>
           </p>
         </div>

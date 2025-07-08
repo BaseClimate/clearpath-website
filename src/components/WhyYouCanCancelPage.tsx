@@ -22,7 +22,7 @@ const WhyYouCanCancelPage: React.FC<Props> = ({ onOpenModal }) => {
             Why Your HVAC Contract is Legally Cancellable
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed font-medium max-w-4xl mx-auto">
-            Contract cancellation isn't a loophole—it's your legal right. Ontario's consumer protection laws 
+            Contract cancellation isn't a loophole—it's your legal right. Canadian consumer protection laws 
             provide clear remedies when companies violate the rules, which they routinely do.
           </p>
         </div>
@@ -36,7 +36,7 @@ const WhyYouCanCancelPage: React.FC<Props> = ({ onOpenModal }) => {
               The Legal Foundation for Cancellation
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed font-medium">
-              Multiple pieces of legislation protect Ontario homeowners from predatory HVAC contracts.
+              Multiple pieces of legislation protect Canadian homeowners from predatory HVAC contracts.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ const WhyYouCanCancelPage: React.FC<Props> = ({ onOpenModal }) => {
             <div className="bg-slate-50 p-10 rounded-2xl border border-slate-200">
               <div className="flex items-center mb-6">
                 <Shield className="h-8 w-8 text-teal-600 mr-3" />
-                <h3 className="text-2xl font-bold text-slate-800">Ontario Consumer Protection Act</h3>
+                <h3 className="text-2xl font-bold text-slate-800">Canadian Consumer Protection Laws</h3>
               </div>
               
               <p className="text-slate-600 leading-relaxed font-medium mb-6">
@@ -190,7 +190,7 @@ const WhyYouCanCancelPage: React.FC<Props> = ({ onOpenModal }) => {
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
-                These reports have exposed how sales agents use high-pressure tactics and misrepresent government programs to lock seniors and vulnerable homeowners into unbreakable contracts with buyout costs reaching tens of thousands of dollars. In the most extreme cases, the liens placed on homes have been used to threaten foreclosure, creating devastating financial and emotional hardship for families across Ontario.
+                These reports have exposed how sales agents use high-pressure tactics and misrepresent government programs to lock seniors and vulnerable homeowners into unbreakable contracts with buyout costs reaching tens of thousands of dollars. In the most extreme cases, the liens placed on homes have been used to threaten foreclosure, creating devastating financial and emotional hardship for families across Canada.
               </p>
             </div>
 
