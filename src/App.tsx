@@ -50,6 +50,22 @@ function App() {
     delay: 500
   });
 
+  // Handle scroll to section after navigation
+  const scrollToSection = () => {
+    const sectionId = sessionStorage.getItem('scrollToSection');
+    if (sectionId) {
+      const element = document.querySelector(sectionId);
+      if (element) {
+        // Small timeout to ensure the page has rendered
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+          // Clear the stored section
+          sessionStorage.removeItem('scrollToSection');
+        }, 100);
+      }
+    }
+  };
+
   // Check URL path to determine current page
   React.useEffect(() => {
     const path = window.location.pathname;
@@ -65,6 +81,10 @@ function App() {
       setCurrentPage('resources');
     } else {
       setCurrentPage('home');
+      // If we just navigated to home with a section to scroll to
+      if (sessionStorage.getItem('scrollToSection')) {
+        scrollToSection();
+      }
     }
   }, []);
 

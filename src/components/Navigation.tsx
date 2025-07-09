@@ -13,16 +13,21 @@ const Navigation: React.FC<Props> = ({ onOpenModal }) => {
     setIsMobileMenuOpen(false);
     
     if (href.startsWith('#')) {
-      // Handle anchor links on the same page
+      // If we're not on the home page, navigate there first
+      if (!window.location.pathname.endsWith('/')) {
+        // Store the hash in session storage to scroll after page load
+        sessionStorage.setItem('scrollToSection', href);
+        window.location.href = '/';
+        return;
+      }
+      
+      // If we're already on the home page, scroll to the section
       const element = document.querySelector(href);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
-    } else if (href === '/why-you-can-cancel' || href === '/faq' || href === '/about-us' || href === '/case-studies' || href === '/resources') {
+    } else if (href === '/why-you-can-cancel' || href === '/faq' || href === '/about-us' || href === '/case-studies' || href === '/resources' || href === '/') {
       // Handle navigation to dedicated pages
-      window.location.href = href;
-    } else if (href === '/') {
-      // Handle home navigation
       window.location.href = href;
     }
   };
@@ -43,10 +48,14 @@ const Navigation: React.FC<Props> = ({ onOpenModal }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="flex items-center">
+            <button 
+              onClick={() => handleNavClick('/')}
+              className="flex items-center focus:outline-none"
+              aria-label="Go to home page"
+            >
               <Shield className="h-8 w-8 text-slate-700 mr-3" />
               <span className="text-2xl font-bold text-slate-700 tracking-tight">ClearPath</span>
-            </div>
+            </button>
             
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
@@ -126,10 +135,14 @@ const Navigation: React.FC<Props> = ({ onOpenModal }) => {
             <div className="flex flex-col h-full">
               {/* Header */}
               <div className="flex items-center justify-between p-6 border-b border-slate-700">
-                <div className="flex items-center">
+                <button 
+                  onClick={() => handleNavClick('/')}
+                  className="flex items-center focus:outline-none"
+                  aria-label="Go to home page"
+                >
                   <Shield className="h-6 w-6 text-teal-400 mr-2" />
                   <span className="text-xl font-bold text-white tracking-tight">ClearPath</span>
-                </div>
+                </button>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
