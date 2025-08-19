@@ -382,15 +382,15 @@ const WhyYouCanCancelPage: React.FC<Props> = ({ onOpenModal }) => {
             Ready to Exercise Your Legal Rights?
           </h2>
           <p className="text-xl text-slate-100 mb-10 leading-relaxed font-medium max-w-3xl mx-auto">
-            Don't let predatory companies continue to violate your rights. Get a free analysis of your contract 
-            and discover your legal options.
+            Don't let predatory companies continue to violate your rights. Get a free case review of your contract
+            and discuss your legal options.
           </p>
           
           <button 
             onClick={onOpenModal}
             className="bg-white hover:bg-slate-50 text-slate-700 px-12 py-5 rounded-xl font-bold text-xl shadow-lg transform hover:scale-105 transition-all"
           >
-            Get My Free Legal Analysis
+            Get a Free Case Review
           </button>
           
           <div className="flex items-center justify-center space-x-8 mt-8 text-slate-200">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FileText, StopCircle, CheckCircle2 } from 'lucide-react';
 
 const HowItWorks = () => {
@@ -18,13 +17,9 @@ const HowItWorks = () => {
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-200 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Step 1: Free Case Review</h3>
-              <p className="text-slate-600 leading-relaxed font-medium mb-4">
-                Tell us about your situation. Our experts will conduct a free case review to identify the legal violations 
-                in your agreement. Even if you don't have your contract, we know these agreements inside and out and can 
-                show you the clear path to getting out of it.
-              </p>
-              <p className="text-sm text-teal-600 font-semibold">
-                This initial review is always free, 100% confidential, and does not require a credit check.
+              <p className="text-slate-600 leading-relaxed font-medium">
+                Tell us about your situation. We review your contract and identify legal violations under Canadian consumer
+                protection laws. This is always free and confidential.
               </p>
             </div>
           </div>
@@ -34,11 +29,9 @@ const HowItWorks = () => {
               <StopCircle className="h-12 w-12 text-red-600" />
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-200 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Step 2: Stop the Payments</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Step 2: Notice of Cancellation</h3>
               <p className="text-slate-600 leading-relaxed font-medium">
-                Once onboarded, we connect you with the independent legal partner assigned to your case. They will send 
-                an official Notice of Cancellation, at which point you stop paying the finance company and start your 
-                single, lower ClearPath payment.
+                A formal demand letter is sent to the finance company. Some cases end here with settlement.
               </p>
             </div>
           </div>
@@ -50,8 +43,8 @@ const HowItWorks = () => {
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-200 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Step 3: Contract Terminated</h3>
               <p className="text-slate-600 leading-relaxed font-medium">
-                We manage the entire legal process from start to finish, getting your contract 
-                and the lien on your home terminated for good.
+                If the company refuses, your assigned lawyer takes it to court. ClearPath manages the process until your
+                contract is legally cancelled and the lien is removed.
               </p>
             </div>
           </div>

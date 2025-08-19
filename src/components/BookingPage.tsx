@@ -52,15 +52,14 @@ const BookingPage: React.FC<Props> = ({ leadData, results, onBack }) => {
             Thank You, {leadData.fullName.split(' ')[0]}!
           </h2>
           <p className="text-xl text-slate-600 mb-2">
-            Your final step is to book your free consultation.
+            Your final step is to get a free case review.
           </p>
           
           {!results.isOtherCompany && (
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 max-w-2xl mx-auto">
               <p className="text-lg text-slate-700">
-                We have received your information and saved your estimated savings of{' '}
-                <strong className="text-teal-600">${results.totalSavings.toLocaleString()}</strong>.{' '}
-                Please click the button below to select a time that works for you.
+                We have received your information and saved your details. Please click the button below to select a
+                time that works for you.
               </p>
             </div>
           )}
@@ -72,7 +71,7 @@ const BookingPage: React.FC<Props> = ({ leadData, results, onBack }) => {
             <div className="flex items-center mb-6">
               <Calendar className="h-8 w-8 text-teal-600 mr-3" />
               <h3 className="text-2xl font-bold text-slate-900">
-                30-Minute Free Contract Analysis
+                30-Minute Free Case Review
               </h3>
             </div>
             
@@ -87,7 +86,7 @@ const BookingPage: React.FC<Props> = ({ leadData, results, onBack }) => {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-teal-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="font-medium">Confirm your exact savings potential</span>
+                  <span className="font-medium">Explain your rights and options</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-teal-600 mr-3 mt-0.5 flex-shrink-0" />
@@ -113,7 +112,7 @@ const BookingPage: React.FC<Props> = ({ leadData, results, onBack }) => {
                 className="w-full bg-teal-600 text-white font-bold py-4 px-6 rounded-lg text-lg hover:bg-teal-700 transition-colors duration-300 shadow-lg flex items-center justify-center"
               >
                 <Calendar className="h-6 w-6 mr-3" />
-                Book My Free Consultation
+                Get a Free Case Review
                 <ExternalLink className="h-5 w-5 ml-3" />
               </a>
               <p className="text-sm text-gray-500 mt-4">
@@ -190,19 +189,19 @@ const BookingPage: React.FC<Props> = ({ leadData, results, onBack }) => {
               <ul className="space-y-2 text-sm text-slate-700">
                 <li className="flex items-start">
                   <CheckCircle className="h-4 w-4 text-teal-600 mr-2 mt-0.5 flex-shrink-0" />
-                  100% Risk-Free Guarantee
+                  Coordinated with licensed legal professionals
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-4 w-4 text-teal-600 mr-2 mt-0.5 flex-shrink-0" />
-                  No Credit Check Required
+                  Confidential and no obligation
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-4 w-4 text-teal-600 mr-2 mt-0.5 flex-shrink-0" />
-                  Licensed Legal Partners
+                  Transparent process and clear communication
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-4 w-4 text-teal-600 mr-2 mt-0.5 flex-shrink-0" />
-                  Proven Track Record
+                  We explain your options under Canadian law
                 </li>
               </ul>
             </div>

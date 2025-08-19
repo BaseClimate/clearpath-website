@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Calculator, ArrowRight, Shield, CheckCircle, DollarSign, AlertTriangle, HelpCircle } from 'lucide-react';
+import { X, Calculator, ArrowRight, CheckCircle, DollarSign, AlertTriangle, HelpCircle } from 'lucide-react';
 
 interface CalculatorData {
   monthlyPayment: string;
@@ -174,7 +174,7 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
             <h2 className="text-xl font-bold text-slate-900">
               {step === 1 && "Step 1: Calculate Your True Financial Picture"}
               {step === 2 && "Your Financial Comparison"}
-              {step === 3 && "Step 2: Save Your Results & Book Your Consultation"}
+              {step === 3 && "Step 2: Save Your Details & Get a Free Case Review"}
             </h2>
           </div>
           <button
@@ -295,14 +295,14 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
                 <div className="text-center p-8 bg-teal-50 rounded-xl">
                   <AlertTriangle className="h-16 w-16 text-teal-600 mx-auto mb-4" />
                   <p className="text-lg text-slate-800 leading-relaxed mb-6">
-                    Contracts from other providers vary significantly. We will calculate your exact savings 
-                    during your <strong>100% free analysis</strong>.
+                    Contracts from other providers vary. We will review your situation and discuss your options
+                    during a <strong>free case review</strong>.
                   </p>
                   <button 
                     onClick={handleProceedToLead}
                     className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors flex items-center mx-auto"
                   >
-                    Lock In My Savings & Start My Free Analysis
+                    Get a Free Case Review
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </button>
                 </div>
@@ -346,21 +346,12 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
                           </td>
                         </tr>
                         <tr className="bg-white">
-                          <td className="px-6 py-6 font-semibold text-slate-900">Includes Maintenance?</td>
+                          <td className="px-6 py-6 font-semibold text-slate-900">Service and Support</td>
                           <td className="px-6 py-6 text-center">
-                            <div className="flex items-center justify-center">
-                              <X className="h-8 w-8 text-red-500 mr-2" />
-                              <span className="text-lg font-medium text-red-600">No</span>
-                            </div>
+                            <div className="text-lg font-medium text-slate-700">Varies by provider</div>
                           </td>
                           <td className="px-6 py-6 text-center">
-                            <div className="flex items-center justify-center">
-                              <CheckCircle className="h-8 w-8 text-teal-500 mr-2" />
-                              <div>
-                                <span className="text-lg font-medium text-teal-600">Yes</span>
-                                <div className="text-sm text-slate-600">(~$300/year value)</div>
-                              </div>
-                            </div>
+                            <div className="text-lg font-medium text-slate-700">Discussed during review</div>
                           </td>
                         </tr>
                       </tbody>
@@ -372,14 +363,12 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
                     <div className="mb-4">
                       <DollarSign className="h-16 w-16 text-teal-600 mx-auto mb-4" />
                       <h4 className="text-3xl font-bold text-slate-900 mb-2">
-                        Your Clear Path to an Estimated ${results.totalSavings.toLocaleString()} in Savings
+                        Your Clear Path: Personalized Options
                       </h4>
                     </div>
                     <p className="text-lg text-slate-700 leading-relaxed max-w-3xl mx-auto">
-                      By switching to ClearPath, you not only lower your monthly payment and get all-inclusive maintenance, 
-                      but you take back control from the company that wronged you, canceling a{' '}
-                      <strong className="text-red-600">${results.financeCompanyBuyout.toLocaleString()}</strong> debt and 
-                      paying only a fraction of the cost. You can be debt-free years sooner.
+                      During your free case review, we'll discuss your situation, outline potential options under Canadian
+                      consumer protection laws, and coordinate next steps with a licensed legal professional as appropriate.
                     </p>
                   </div>
 
@@ -389,11 +378,11 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
                       onClick={handleProceedToLead}
                       className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors flex items-center mx-auto shadow-lg"
                     >
-                      Lock In My Savings & Start My Free Analysis
+                      Get a Free Case Review
                       <ArrowRight className="ml-3 h-6 w-6" />
                     </button>
                     <p className="text-sm text-slate-600 mt-4">
-                      100% free analysis • No obligation • Confidential review
+                      Free case review • No obligation • Confidential review
                     </p>
                   </div>
                 </div>
@@ -406,23 +395,23 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
             <div>
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">
-                  Save Your Results & Book Your Consultation
+                  Save Your Details & Get a Free Case Review
                 </h3>
                 
                 {results && !results.isOtherCompany && (
                   <div className="bg-teal-50 p-6 rounded-xl border border-teal-200 mb-6">
                     <div className="text-lg font-semibold text-slate-900 mb-2">
-                      Your Estimated Savings Summary:
+                      Your Comparison Snapshot:
                     </div>
                     <div className="grid grid-cols-2 gap-4 text-center">
                       <div>
-                        <div className="text-sm text-slate-600">Total Savings</div>
+                        <div className="text-sm text-slate-600">Comparison Difference</div>
                         <div className="text-2xl font-bold text-teal-600">
                           ${results.totalSavings.toLocaleString()}
                         </div>
                       </div>
                       <div>
-                        <div className="text-sm text-slate-600">New Monthly Payment</div>
+                        <div className="text-sm text-slate-600">Illustrative Monthly Payment</div>
                         <div className="text-2xl font-bold text-teal-600">
                           ~${results.newMonthlyPayment}
                         </div>
@@ -481,7 +470,7 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
                     disabled={!isLeadFormValid || isSubmitting}
                     className="bg-teal-600 hover:bg-teal-700 disabled:bg-slate-300 disabled:cursor-not-allowed text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors flex items-center mx-auto shadow-lg"
                   >
-                    {isSubmitting ? 'Processing...' : 'Book My Free Consultation'}
+                    {isSubmitting ? 'Processing...' : 'Get a Free Case Review'}
                     {!isSubmitting && <ArrowRight className="ml-3 h-6 w-6" />}
                   </button>
                   
@@ -496,7 +485,7 @@ const UniversalConversionModal: React.FC<Props> = ({ isOpen, onClose, initialPay
                     </div>
                     <div className="flex items-center">
                       <CheckCircle className="h-4 w-4 text-teal-600 mr-1" />
-                      Free Analysis
+                      Free Case Review
                     </div>
                   </div>
                 </div>

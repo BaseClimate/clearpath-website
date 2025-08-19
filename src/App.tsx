@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import SocialProofTicker from './components/SocialProofTicker';
 import ProblemSection from './components/ProblemSection';
 import SolutionSection from './components/SolutionSection';
-import FreedomCalculator from './components/FreedomCalculator';
 import HowItWorks from './components/HowItWorks';
 import AuthoritySection from './components/AuthoritySection';
 import Testimonials from './components/Testimonials';
@@ -209,7 +208,6 @@ function App() {
       <SocialProofTicker />
       <ProblemSection />
       <SolutionSection />
-      <FreedomCalculator onOpenModal={handleOpenModal} />
       <HowItWorks />
       <AuthoritySection />
       <Testimonials onOpenModal={handleOpenModal} />

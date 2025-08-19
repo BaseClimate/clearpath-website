@@ -49,7 +49,7 @@ const ResourceCenterPage: React.FC<Props> = ({ onOpenModal }) => {
         
         "**9. An Unconscionable Price**\n\nThis is one of the most fundamental violations. Is the total cost of borrowing or the final buyout price for the equipment many times greater than its actual retail value? If a $4,000 furnace will cost you $25,000 over the life of the contract, that is a strong indicator of a predatory agreement. The Consumer Protection Act contains provisions to void agreements that are so grossly overpriced and one-sided that they are deemed legally \"unconscionable.\"",
         
-        "Think you've found these red flags in your contract? Don't panic. Identifying these issues is the first step to fighting back. At ClearPath, we offer a free, no-obligation contract review to confirm your eligibility for cancellation. Get your free analysis today."
+        "Think you've found these red flags in your contract? Don't panic. Identifying these issues is the first step to fighting back. At ClearPath, we offer a free, no-obligation contract review to confirm your eligibility for cancellation. Get your free case review today."
       ]
     },
     {

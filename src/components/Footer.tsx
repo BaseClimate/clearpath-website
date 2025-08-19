@@ -1,5 +1,5 @@
-import React from 'react';
 import { Shield, Phone, Mail, MapPin } from 'lucide-react';
+import { SITE } from '../config';
 
 const Footer = () => {
   return (
@@ -19,11 +19,11 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-teal-400 mr-4" />
-                <span className="font-medium">(289) 635-4889</span>
+                <a className="font-medium hover:underline" href={`tel:${SITE.PHONE_TEL}`}>{SITE.PHONE_DISPLAY}</a>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-teal-400 mr-4" />
-                <span className="font-medium">info@clearpathcancellation.com</span>
+                <a className="font-medium hover:underline" href={`mailto:${SITE.EMAIL}`}>{SITE.EMAIL}</a>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-teal-400 mr-4" />
@@ -58,9 +58,9 @@ const Footer = () => {
         <div className="border-t border-slate-700 mt-16 pt-10">
           <div className="bg-slate-700 p-8 rounded-xl mb-8">
             <p className="text-sm text-slate-300 leading-relaxed font-medium">
-              <strong className="text-white">Legal Disclaimer:</strong> ClearPath Contract Cancellation is not a law firm and does not provide legal advice. 
-              We are a specialized advocacy and financial administration firm that partners with independent, 
-              licensed legal experts to represent our clients.
+              <strong className="text-white">Legal Disclaimer:</strong> ClearPath is an advocacy and administrative service. We are not a law firm. 
+              We prepare your case, send demand letters, and coordinate with licensed legal professionals where required. 
+              You keep your equipment if your contract is cancelled under Canadian law.
             </p>
           </div>
           
