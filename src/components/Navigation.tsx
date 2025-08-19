@@ -102,7 +102,7 @@ const Navigation: React.FC<Props> = ({ onOpenModal }) => {
               onClick={onOpenModal}
               className="hidden lg:block bg-slate-700 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-sm"
             >
-              Get My Free Analysis
+              Get a Free Case Review
             </button>
 
             {/* Mobile Hamburger Menu Button */}
@@ -212,7 +212,7 @@ const Navigation: React.FC<Props> = ({ onOpenModal }) => {
                   onClick={handleModalOpen}
                   className="w-full bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors shadow-lg"
                 >
-                  Get My Free Analysis
+                  Get a Free Case Review
                 </button>
                 
                 <div className="flex items-center justify-center space-x-6 mt-4 text-sm text-slate-400">

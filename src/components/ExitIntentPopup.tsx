@@ -146,7 +146,7 @@ const ExitIntentPopup: React.FC<Props> = ({ isOpen, onClose }) => {
 
               <div className="bg-teal-50 p-6 rounded-xl border border-teal-200">
                 <p className="text-slate-700 font-medium mb-4">
-                  While you wait, did you know you can get a free analysis of your specific contract?
+                  While you wait, did you know you can get a free case review of your specific contract?
                 </p>
                 <button
                   onClick={() => {
@@ -156,7 +156,7 @@ const ExitIntentPopup: React.FC<Props> = ({ isOpen, onClose }) => {
                   }}
                   className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  Get My Free Contract Analysis
+                  Get a Free Case Review
                 </button>
               </div>
             </div>

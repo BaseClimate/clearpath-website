@@ -1,5 +1,5 @@
 import React from 'react';
-import { Quote, Star, DollarSign } from 'lucide-react';
+import { Quote, Star, CheckCircle } from 'lucide-react';
 
 interface Props {
   onOpenModal: () => void;
@@ -10,24 +10,21 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
     {
       name: "David L.",
       location: "Mississauga, ON",
-      quote: "As a business owner, I was furious when I realized I'd been tricked into a $9,000 contract for a simple HEPA air filter. The frustration was immense. ClearPath's model is brilliant—they saved me over $4,500, handled the entire legal process, and made fighting back on principle not only possible, but simple.",
-      totalSaved: "Over $4,500",
+      quote: "As a business owner, I was furious when I realized I'd been tricked into a $9,000 contract for a simple HEPA air filter. The frustration was immense. ClearPath guided me through the legal process and made fighting back on principle not only possible, but simple.",
       image: "/david.jpg",
       positionClass: 'object-top'
     },
     {
       name: "Sarah J.",
       location: "Richmond Hill, ON",
-      quote: "I felt so foolish for signing. When I discovered the total buyout for our new tankless water heater was over $22,000, I felt sick. ClearPath was a lifeline. They cut my total debt by over $11,000, and my new monthly payment is even a little lower and finally includes maintenance. A massive weight has been lifted.",
-      totalSaved: "Over $11,000",
+      quote: "I felt so foolish for signing. When I discovered the total buyout for our new tankless water heater was over $22,000, I felt sick. ClearPath was a lifeline. They explained my rights, coordinated with a legal professional, and made the process clear and manageable.",
       image: "/ChatGPT Image Jun 29, 2025 at 04_45_34 PM.png",
       positionClass: 'object-center'
     },
     {
       name: "Mark T.",
       location: "Hamilton, ON",
-      quote: "My elderly father was pressured into a shocking $45,000 contract for a furnace and tankless water heater he didn't need. He felt completely trapped. ClearPath saved him over $22,500, got the lien cancelled, and gave him his peace of mind back. I can't recommend them enough.",
-      totalSaved: "Over $22,500",
+      quote: "My elderly father was pressured into a shocking contract for a furnace and tankless water heater he didn't need. He felt completely trapped. ClearPath helped us navigate the process, the lien was cancelled, and we got our peace of mind back. I can't recommend them enough.",
       image: "/Gemini_Generated_Image_thd152thd152thd1.jpg",
       positionClass: 'object-center'
     }
@@ -51,14 +48,14 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
                 ))}
               </div>
               
-              {/* Prominent Total Savings Highlight */}
+              {/* Neutral Outcome Highlight */}
               <div className="bg-gradient-to-r from-teal-500 to-teal-600 text-white p-6 rounded-xl mb-8 text-center shadow-lg">
                 <div className="flex items-center justify-center mb-2">
-                  <DollarSign className="h-8 w-8 mr-2" />
-                  <span className="text-sm font-medium uppercase tracking-wide">Total Saved</span>
+                  <CheckCircle className="h-8 w-8 mr-2" />
+                  <span className="text-sm font-medium uppercase tracking-wide">Outcome</span>
                 </div>
                 <div className="text-3xl font-bold">
-                  {testimonial.totalSaved}
+                  Contract Cancelled
                 </div>
               </div>
               
@@ -68,10 +65,10 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
                 "{testimonial.quote}"
               </blockquote>
               
-              {/* Additional Benefits Line */}
+              {/* Additional Note */}
               <div className="bg-teal-50 p-4 rounded-lg mb-6 border border-teal-100 text-center">
                 <p className="text-sm text-teal-700 font-medium">
-                  Plus, a lower monthly payment with maintenance included
+                  Coordinated with licensed legal professionals where required
                 </p>
               </div>
               
@@ -95,7 +92,7 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
             onClick={onOpenModal}
             className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors shadow-lg"
           >
-            Get My Free Analysis
+            Get a Free Case Review
           </button>
         </div>
       </div>

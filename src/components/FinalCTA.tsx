@@ -14,34 +14,33 @@ const FinalCTA: React.FC<Props> = ({ onOpenModal }) => {
         </div>
         
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight tracking-tight">
-          Stop Feeling Trapped. Start Saving Today.
+          Take the First Step Toward Contract Relief
         </h2>
         
         <p className="text-xl text-slate-100 mb-12 leading-relaxed font-medium max-w-3xl mx-auto">
-          Take the first step with a free, no-obligation analysis of your contract. 
-          Discover your rights and see exactly how much you can save.
+          Get a free, no-obligation review of your contract. We’ll explain your rights and next steps under Canadian law.
         </p>
         
         <button 
           onClick={onOpenModal}
           className="bg-white hover:bg-slate-50 text-slate-700 px-12 py-5 rounded-xl font-bold text-xl shadow-lg transform hover:scale-105 transition-all flex items-center mx-auto mb-10"
         >
-          Get My Free Analysis
+          Get a Free Case Review
           <ArrowRight className="ml-3 h-6 w-6" />
         </button>
         
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-12 text-slate-100">
           <span className="flex items-center font-medium">
             <span className="text-teal-300 mr-2">✓</span>
-            100% Risk-Free Guarantee
+            Coordinated with licensed legal professionals
           </span>
           <span className="flex items-center font-medium">
             <span className="text-teal-300 mr-2">✓</span>
-            No Credit Check Required
+            Free, no-obligation review
           </span>
           <span className="flex items-center font-medium">
             <span className="text-teal-300 mr-2">✓</span>
-            Approval Based on Your Contract
+            Confidential and transparent process
           </span>
         </div>
       </div>

@@ -66,7 +66,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
               </p>
               
               <p className="text-lg text-slate-700 leading-relaxed font-medium mt-6">
-                Our model makes fighting back not only possible but simple and risk-free. That is the story of ClearPath: we didn't just join the fight; we changed how the fight is won.
+                Our model makes fighting back possible and simple. That is the story of ClearPath: we didn't just join the fight; we changed how the fight is won.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed font-medium">
-                We have now successfully helped hundreds of families across Canada cancel their contracts, saving them millions of dollars in fraudulent debt.
+                We have successfully helped families across Canada cancel their contracts.
               </p>
             </div>
             
@@ -106,9 +106,9 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
                   <Shield className="h-6 w-6 text-teal-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-800 mb-2">Proven Results</h3>
+                  <h3 className="text-xl font-bold text-slate-800 mb-2">Proven Process</h3>
                   <p className="text-slate-600 leading-relaxed font-medium">
-                    Hundreds of successful cancellations, millions saved in fraudulent debt
+                    Hundreds of successful cancellations across Canada
                   </p>
                 </div>
               </div>
@@ -201,17 +201,17 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
             onClick={onOpenModal}
             className="bg-white hover:bg-slate-50 text-slate-700 px-12 py-5 rounded-xl font-bold text-xl shadow-lg transform hover:scale-105 transition-all mb-8"
           >
-            Get My Free Analysis
+            Get a Free Case Review
           </button>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-12 text-slate-200">
             <span className="flex items-center font-medium">
               <CheckCircle className="h-5 w-5 text-teal-300 mr-2" />
-              100% Risk-Free Guarantee
+              Coordinated with licensed legal professionals
             </span>
             <span className="flex items-center font-medium">
               <CheckCircle className="h-5 w-5 text-teal-300 mr-2" />
-              No Credit Check Required
+              Free, no-obligation review
             </span>
             <span className="flex items-center font-medium">
               <CheckCircle className="h-5 w-5 text-teal-300 mr-2" />
