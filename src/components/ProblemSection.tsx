@@ -29,7 +29,7 @@ const ProblemSection = () => {
               <Search className="h-8 w-8 text-red-600" />
             </div>
             <p className="text-slate-700 leading-relaxed font-medium">
-              Were you shocked to discover a <strong className="text-slate-800">lien was placed against your home</strong> 
+              Were you shocked to discover a <strong className="text-slate-800">lien was placed against your home</strong>{' '}
               for an amount you never truly agreed to?
             </p>
           </div>
@@ -50,7 +50,7 @@ const ProblemSection = () => {
             </div>
             <p className="text-slate-700 leading-relaxed font-medium">
               Are you getting the run-around when you call for the <strong className="text-slate-800">maintenance 
-              that was promised</strong> in your contract?
+              that was promised</strong>{' '}in your contract?
             </p>
           </div>
         </div>
