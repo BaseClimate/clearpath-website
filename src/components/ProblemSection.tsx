@@ -39,8 +39,8 @@ const ProblemSection = () => {
               <Clock className="h-8 w-8 text-red-600" />
             </div>
             <p className="text-slate-700 leading-relaxed font-medium">
-              Was the equipment installed the next day, <strong className="text-slate-800">violating the legally required 
-              10-day cooling-off period?</strong>
+              Was the equipment installed immediately after you signed, leaving you little time to review your rights? For
+              many door-to-door HVAC agreements, Ontario law gives you a 10-day cooling-off period—you can still cancel.
             </p>
           </div>
           
