@@ -66,7 +66,7 @@ const Footer = () => {
           
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm font-medium">
-              2024 ClearPath Contract Cancellation. All rights reserved.
+              2024 ClearPath Direct. All rights reserved.
             </p>
             <p className="text-slate-400 text-sm mt-2 sm:mt-0 font-medium">
               Serving homeowners across Canada

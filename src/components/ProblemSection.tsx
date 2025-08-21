@@ -29,7 +29,7 @@ const ProblemSection = () => {
               <Search className="h-8 w-8 text-red-600" />
             </div>
             <p className="text-slate-700 leading-relaxed font-medium">
-              Were you shocked to discover a <strong className="text-slate-800">lien was placed against your home</strong> 
+              Were you shocked to discover a <strong className="text-slate-800">lien was placed against your home</strong>{' '}
               for an amount you never truly agreed to?
             </p>
           </div>
@@ -39,8 +39,8 @@ const ProblemSection = () => {
               <Clock className="h-8 w-8 text-red-600" />
             </div>
             <p className="text-slate-700 leading-relaxed font-medium">
-              Was the equipment installed the next day, <strong className="text-slate-800">violating the legally required 
-              10-day cooling-off period?</strong>
+              Was the equipment installed immediately after you signed, leaving you little time to review your rights? For
+              many door-to-door HVAC agreements, Ontario law gives you a 10-day cooling-off period—you can still cancel.
             </p>
           </div>
           
@@ -50,7 +50,7 @@ const ProblemSection = () => {
             </div>
             <p className="text-slate-700 leading-relaxed font-medium">
               Are you getting the run-around when you call for the <strong className="text-slate-800">maintenance 
-              that was promised</strong> in your contract?
+              that was promised</strong>{' '}in your contract?
             </p>
           </div>
         </div>
