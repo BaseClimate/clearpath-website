@@ -29,9 +29,9 @@ const HowItWorks = () => {
               <StopCircle className="h-12 w-12 text-red-600" />
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-200 hover:shadow-xl transition-shadow flex flex-col h-full">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Step 2: Notice of Cancellation</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Step 2: Formal Notice Sent</h3>
               <p className="text-slate-600 leading-relaxed font-medium mt-2">
-                A formal demand letter is sent to the finance company. Some cases end here with settlement.
+                ClearPath prepares and sends a formal legal notice to the finance company. Some cases resolve at this stage.
               </p>
             </div>
           </div>
