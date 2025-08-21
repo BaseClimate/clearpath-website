@@ -75,8 +75,8 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
               <footer className="border-t border-slate-200 pt-6 flex items-center">
                 <img 
                   src={testimonial.image} 
-                  alt={testimonial.name}
-                  className={`w-12 h-12 rounded-full object-cover mr-4 ${testimonial.positionClass}`}
+                  alt="Portrait"
+                  className={`w-16 h-16 rounded-full object-cover mr-4 ${testimonial.positionClass}`}
                 />
                 <div>
                   <div className="font-bold text-slate-800 text-lg">{testimonial.name}</div>
