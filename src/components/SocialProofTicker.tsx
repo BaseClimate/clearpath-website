@@ -22,7 +22,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/ChatGPT Image Jun 29, 2025 at 04_45_34 PM.png" 
+                  src="/img/testimonials/sarah.jpg" 
                   alt="Happy customer Sarah J."
                 />
                 <div>
@@ -35,7 +35,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/Gemini_Generated_Image_thd152thd152thd1.jpg" 
+                  src="/img/testimonials/mark.jpg" 
                   alt="Happy customer Mark T."
                 />
                 <div>
@@ -48,7 +48,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/linda.png" 
+                  src="/img/testimonials/linda.jpg" 
                   alt="Happy customer Linda P."
                 />
                 <div>
@@ -61,7 +61,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/david.jpg" 
+                  src="/img/testimonials/david.jpg" 
                   alt="Happy customer David L."
                 />
                 <div>
@@ -77,7 +77,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/ChatGPT Image Jun 29, 2025 at 04_45_34 PM.png" 
+                  src="/img/testimonials/sarah.jpg" 
                   alt="Happy customer Sarah J."
                 />
                 <div>
@@ -90,7 +90,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/Gemini_Generated_Image_thd152thd152thd1.jpg" 
+                  src="/img/testimonials/mark.jpg" 
                   alt="Happy customer Mark T."
                 />
                 <div>
@@ -103,7 +103,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/linda.png" 
+                  src="/img/testimonials/linda.jpg" 
                   alt="Happy customer Linda P."
                 />
                 <div>
@@ -116,7 +116,7 @@ const SocialProofTicker: React.FC = () => {
               <div className="flex items-center space-x-3 bg-gray-100 p-3 rounded-full shadow-sm">
                 <img 
                   className="w-12 h-12 rounded-full object-cover" 
-                  src="/david.jpg" 
+                  src="/img/testimonials/david.jpg" 
                   alt="Happy customer David L."
                 />
                 <div>

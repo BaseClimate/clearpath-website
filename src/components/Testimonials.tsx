@@ -11,21 +11,21 @@ const Testimonials: React.FC<Props> = ({ onOpenModal }) => {
       name: "David L.",
       location: "Mississauga, ON",
       quote: "As a business owner, I was furious when I realized I'd been tricked into a $9,000 contract for a simple HEPA air filter. The frustration was immense. ClearPath guided me through the legal process and made fighting back on principle not only possible, but simple.",
-      image: "/david.jpg",
+      image: "/img/testimonials/david.jpg",
       positionClass: 'object-top'
     },
     {
       name: "Sarah J.",
       location: "Richmond Hill, ON",
       quote: "I felt so foolish for signing. When I discovered the total buyout for our new tankless water heater was over $22,000, I felt sick. ClearPath was a lifeline. They explained my rights, coordinated with a legal professional, and made the process clear and manageable.",
-      image: "/ChatGPT Image Jun 29, 2025 at 04_45_34 PM.png",
+      image: "/img/testimonials/sarah.jpg",
       positionClass: 'object-center'
     },
     {
       name: "Mark T.",
       location: "Hamilton, ON",
       quote: "My elderly father was pressured into a shocking contract for a furnace and tankless water heater he didn't need. He felt completely trapped. ClearPath helped us navigate the process, the lien was cancelled, and we got our peace of mind back. I can't recommend them enough.",
-      image: "/Gemini_Generated_Image_thd152thd152thd1.jpg",
+      image: "/img/testimonials/mark.jpg",
       positionClass: 'object-center'
     }
   ];
