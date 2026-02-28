@@ -58,15 +58,15 @@ const Footer = () => {
         <div className="border-t border-slate-700 mt-16 pt-10">
           <div className="bg-slate-700 p-8 rounded-xl mb-8">
             <p className="text-sm text-slate-300 leading-relaxed font-medium">
-              <strong className="text-white">Legal Disclaimer:</strong> ClearPath is an advocacy and administrative service. We are not a law firm. 
-              We prepare your case, send demand letters, and coordinate with licensed legal professionals where required. 
-              You keep your equipment if your contract is cancelled under Canadian law.
+              <strong className="text-white">Legal Disclaimer:</strong> ClearPath is an advocacy and administrative service. We are not a law firm.
+              We prepare your case, send demand letters, and coordinate with licensed legal professionals where required.
+              You keep your equipment if your contract is cancelled under Canadian law. ClearPath Direct is the operating brand of Clearpath Contract Cancellation Inc., a registered corporation in British Columbia.
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm font-medium">
-              2024 ClearPath Direct. All rights reserved.
+              © 2026 Clearpath Contract Cancellation Inc. (operating as ClearPath Direct). All rights reserved.
             </p>
             <p className="text-slate-400 text-sm mt-2 sm:mt-0 font-medium">
               Serving homeowners across Canada
