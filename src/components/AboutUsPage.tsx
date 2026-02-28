@@ -22,7 +22,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
             About Us: A Mission for Justice
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed font-medium max-w-4xl mx-auto">
-            ClearPath wasn't born in a boardroom. It was born from a shared frustration with a broken system and an unwavering commitment to justice for Canadian homeowners.
+            ClearPath Direct is the consumer-facing brand of Clearpath Contract Cancellation Inc., a legally registered Canadian corporation headquartered in British Columbia. While we are a registered corporate entity, our mission wasn't born in a boardroom. It was born from a shared frustration with a broken system and an unwavering commitment to justice for Canadian homeowners.
           </p>
         </div>
       </section>
@@ -70,6 +70,24 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
               </p>
             </div>
           </div>
+
+          <div className="bg-white p-12 rounded-2xl shadow-lg border border-slate-200 mt-12">
+            <div className="prose prose-lg max-w-none">
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Our Corporate Structure & Operations</h3>
+              <p className="text-lg text-slate-700 leading-relaxed font-medium">
+                Clearpath Contract Cancellation Inc. is officially registered and headquartered in British Columbia. However, because Ontario represents the largest concentration of predatory HVAC and door-to-door contracts in Canada, we maintain our primary mailing and operational presence at 333 Bay Street in Toronto, Ontario. This allows our advocacy teams and case managers to be positioned closely to the jurisdictions where the majority of these consumer protection violations occur.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white p-12 rounded-2xl shadow-lg border border-slate-200 mt-12">
+            <div className="prose prose-lg max-w-none">
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Leadership</h3>
+              <p className="text-lg text-slate-700 leading-relaxed font-medium">
+                ClearPath was founded by Jon Peters alongside a team of consumer advocates, technology experts, and legal strategists. After witnessing the devastating financial impact these predatory contracts had on vulnerable families, Jon and the team became obsessed with a single question: How can we make justice affordable for everyone?
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -92,7 +110,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed font-medium mb-6">
-                We are not a law firm. We are a dedicated team of advocates, case managers, and process experts who have created a digitized and streamlined system for contract cancellation. We partner with specialized, independent lawyers who use our proven platform to fight for you.
+                While we are not a law firm, our services are structured to provide comprehensive administrative and advocacy support. We handle the complex case preparation and then partner exclusively with fully licensed, independent legal professionals who possess the proper authority to execute your contract cancellation.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed font-medium">
