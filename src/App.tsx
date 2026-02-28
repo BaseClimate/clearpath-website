@@ -44,7 +44,7 @@ function App() {
 
   // Exit intent hook - only enabled on certain pages and if not shown before
   const { showExitIntent, resetExitIntent } = useExitIntent({
-    enabled: !hasShownExitIntent && !showBookingPage && currentPage === 'home',
+    enabled: false, // Temporarily disabled
     threshold: 50,
     delay: 500
   });
