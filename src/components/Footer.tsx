@@ -64,7 +64,7 @@ const Footer = () => {
             <p className="text-sm text-slate-300 leading-relaxed font-medium">
               <strong className="text-white">Legal Disclaimer:</strong> ClearPath is an advocacy and administrative service. We are not a law firm.
               We prepare your case, send demand letters, and coordinate with licensed legal professionals where required.
-              You keep your equipment if your contract is cancelled under Canadian law. ClearPath Direct is the operating brand of Clearpath Contract Cancellation Inc., a registered corporation in British Columbia.
+              You keep your equipment if your contract is cancelled under Canadian law. ClearPath Direct is the operating brand of Clearpath Contract Cancellation Inc., a registered corporation in British Columbia and legally registered in Ontario (OCN: 1001510360).
             </p>
           </div>
           

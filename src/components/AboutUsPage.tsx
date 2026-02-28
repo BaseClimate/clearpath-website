@@ -75,7 +75,7 @@ const AboutUsPage: React.FC<Props> = ({ onOpenModal }) => {
             <div className="prose prose-lg max-w-none">
               <h3 className="text-2xl font-bold text-slate-800 mb-6 tracking-tight">Our Corporate Structure & Operations</h3>
               <p className="text-lg text-slate-700 leading-relaxed font-medium">
-                Clearpath Contract Cancellation Inc. is officially registered and headquartered in British Columbia. However, because Ontario represents the largest concentration of predatory HVAC and door-to-door contracts in Canada, we maintain our primary mailing and operational presence at 333 Bay Street in Toronto, Ontario. This allows our advocacy teams and case managers to be positioned closely to the jurisdictions where the majority of these consumer protection violations occur.
+                Clearpath Contract Cancellation Inc. is officially registered and headquartered in British Columbia, and operates as an officially registered extra-provincial corporation in the Ontario Business Registry (OCN: 1001510360). However, because Ontario represents the largest concentration of predatory HVAC and door-to-door contracts in Canada, we maintain our primary mailing and operational presence at 333 Bay Street in Toronto, Ontario. This allows our advocacy teams and case managers to be positioned closely to the jurisdictions where the majority of these consumer protection violations occur.
               </p>
             </div>
           </div>
