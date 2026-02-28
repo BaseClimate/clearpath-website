@@ -25,9 +25,13 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-teal-400 mr-4" />
                 <a className="font-medium hover:underline" href={`mailto:${SITE.EMAIL}`}>{SITE.EMAIL}</a>
               </div>
-              <div className="flex items-center">
-                <MapPin className="h-5 w-5 text-teal-400 mr-4" />
-                <span className="font-medium">333 Bay Street, Suite 1400, Toronto, ON M5H 2R2</span>
+              <div className="flex items-start">
+                <MapPin className="h-5 w-5 text-teal-400 mr-4 mt-1" />
+                <div className="font-medium">
+                  <span>Headquarters: 1600 595 Burrard Street, Vancouver, BC V7X 1L3</span>
+                  <br />
+                  <span>Operations & Mailing: 333 Bay Street, Suite 1400, Toronto, ON M5H 2R2</span>
+                </div>
               </div>
             </div>
           </div>
@@ -48,8 +52,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6 tracking-tight">Legal</h3>
             <ul className="space-y-3 text-slate-300">
-              <li><a href="#" className="hover:text-white transition-colors font-medium">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors font-medium">Terms of Service</a></li>
+              <li><a href="/privacy-policy" className="hover:text-white transition-colors font-medium">Privacy Policy</a></li>
+              <li><a href="/terms-of-service" className="hover:text-white transition-colors font-medium">Terms of Service</a></li>
               <li><a href="#" className="hover:text-white transition-colors font-medium">Legal Disclaimer</a></li>
             </ul>
           </div>

@@ -17,6 +17,8 @@ import FAQPage from './components/FAQPage';
 import AboutUsPage from './components/AboutUsPage';
 import CaseStudiesPage from './components/CaseStudiesPage';
 import ResourceCenterPage from './components/ResourceCenterPage';
+import PrivacyPolicyPage from './components/PrivacyPolicyPage';
+import TermsOfServicePage from './components/TermsOfServicePage';
 import { useExitIntent } from './hooks/useExitIntent';
 
 interface CalculatorResults {
@@ -34,7 +36,7 @@ interface LeadData {
 }
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'why-you-can-cancel' | 'faq' | 'about-us' | 'case-studies' | 'resources'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'why-you-can-cancel' | 'faq' | 'about-us' | 'case-studies' | 'resources' | 'privacy-policy' | 'terms-of-service'>('home');
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showBookingPage, setShowBookingPage] = useState(false);
   const [initialPayment, setInitialPayment] = useState('');
@@ -78,6 +80,10 @@ function App() {
       setCurrentPage('case-studies');
     } else if (path === '/resources') {
       setCurrentPage('resources');
+    } else if (path === '/privacy-policy') {
+      setCurrentPage('privacy-policy');
+    } else if (path === '/terms-of-service') {
+      setCurrentPage('terms-of-service');
     } else {
       setCurrentPage('home');
       // If we just navigated to home with a section to scroll to
@@ -191,6 +197,34 @@ function App() {
     return (
       <>
         <ResourceCenterPage onOpenModal={handleOpenModal} />
+        <UniversalConversionModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          initialPayment={initialPayment}
+          onComplete={handleModalComplete}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === 'privacy-policy') {
+    return (
+      <>
+        <PrivacyPolicyPage onOpenModal={handleOpenModal} />
+        <UniversalConversionModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          initialPayment={initialPayment}
+          onComplete={handleModalComplete}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === 'terms-of-service') {
+    return (
+      <>
+        <TermsOfServicePage onOpenModal={handleOpenModal} />
         <UniversalConversionModal
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
